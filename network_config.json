@@ -1,0 +1,110 @@
+{
+    "R1": {
+        "interfaces": [
+            {
+                "name": "Gig0/0",
+                "ip": "192.168.1.1",
+                "mask": "255.255.255.0",
+                "vlan": 10,
+                "mtu": 1500,
+                "protocol": "OSPF",
+                "bandwidth": "1Gbps"
+            },
+            {
+                "name": "Gig0/1",
+                "ip": "10.0.0.1",
+                "mask": "255.255.255.252",
+                "mtu": 1500,
+                "protocol": "OSPF",
+                "bandwidth": "1Gbps"
+            }
+        ],
+        "hostname": "R1"
+    },
+    "R2": {
+        "interfaces": [
+            {
+                "name": "Gig0/0",
+                "ip": "192.168.2.1",
+                "mask": "255.255.255.0",
+                "vlan": 20,
+                "mtu": 1500,
+                "protocol": "OSPF",
+                "bandwidth": "1Gbps"
+            },
+            {
+                "name": "Gig0/1",
+                "ip": "10.0.0.2",
+                "mask": "255.255.255.252",
+                "mtu": 1500,
+                "protocol": "OSPF",
+                "bandwidth": "1Gbps"
+            }
+        ],
+        "hostname": "R2"
+    },
+    "R3": {
+        "interfaces": [
+            {
+                "name": "Gig0/0",
+                "ip": "192.168.3.1",
+                "mask": "255.255.255.0",
+                "vlan": 30,
+                "mtu": 1400,
+                "protocol": "BGP",
+                "bandwidth": "100Mbps"
+            },
+            {
+                "name": "Gig0/1",
+                "ip": "10.0.1.1",
+                "mask": "255.255.255.252",
+                "mtu": 1400,
+                "protocol": "BGP",
+                "bandwidth": "100Mbps"
+            }
+        ],
+        "hostname": "R3"
+    },
+    "S1": {
+        "interfaces": [
+            {
+                "name": "Fast0/1",
+                "ip": "192.168.1.2",
+                "mask": "255.255.255.0",
+                "vlan": 10,
+                "mtu": 1500,
+                "bandwidth": "100Mbps"
+            },
+            {
+                "name": "Fast0/2",
+                "ip": "192.168.2.2",
+                "mask": "255.255.255.0",
+                "vlan": 20,
+                "mtu": 1500,
+                "bandwidth": "100Mbps"
+            }
+        ],
+        "hostname": "S1"
+    },
+    "S2": {
+        "interfaces": [
+            {
+                "name": "Fast0/1",
+                "ip": "192.168.3.2",
+                "mask": "255.255.255.0",
+                "vlan": 30,
+                "mtu": 1400,
+                "bandwidth": "100Mbps"
+            },
+            {
+                "name": "Fast0/2",
+                "ip": "192.168.2.3",
+                "mask": "255.255.255.0",
+                "vlan": 20,
+                "mtu": 1500,
+                "bandwidth": "100Mbps"
+            }
+        ],
+        "hostname": "S2"
+    }
+}
