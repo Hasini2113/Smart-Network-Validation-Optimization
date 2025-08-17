@@ -8,9 +8,10 @@ It automates **network validation, optimization, and simulation** using configur
 ---
 
 ## 📂 Repository Contents
-- `Final_Report.pdf` → Full project report with implementation, results, and discussion.
-- `Topology.pkt` → Cisco Packet Tracer file containing the final implemented network topology.
+- `Networking_Solution_Final_Report_1` → Full project report with implementation, results, and discussion.
+- `cisco.pkt` → Cisco Packet Tracer file containing the final implemented network topology.
 - `README.md` → Documentation and usage instructions.
+- `network_report`->Contains the network toplogy,validation results.load analysis,suggestions table
 
 ---
 
